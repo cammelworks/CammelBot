@@ -5,6 +5,9 @@ from slackbot.bot import listen_to
 from slackbot.bot import default_reply
 import re
 from datetime import datetime
+import locale
+
+locale.setlocale(locale.LC_CTYPE, "Japanese_Japan.932")
 
 @respond_to('time')
 def now(message):
