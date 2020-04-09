@@ -1,1 +1,1 @@
-pbot: py run.py
+pbot: py slackbot/run.py
