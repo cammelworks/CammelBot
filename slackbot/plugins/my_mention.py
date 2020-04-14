@@ -7,7 +7,7 @@ import re
 from datetime import datetime
 import locale
 
-locale.setlocale(locale.LC_CTYPE, "Japanese_Japan.932")
+locale.setlocale(locale.LC_CTYPE, '')
 
 @respond_to('time')
 def now(message):
