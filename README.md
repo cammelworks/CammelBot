@@ -1,13 +1,24 @@
-# CammelBot
-Slack Bot managing the schedule of daily scrum, sprints and so on.
+# CammelBot <Version1.0>
+Cammel専用のSlackBotです
+
+「メェェ〜」と鳴きます
 
 ## 仕様
-Input> `時間` 
+### デフォルトの返答
+話しかけるとオウム返しをします
 
-もしくは、
+![](img/default.png)
 
-Input> `time` 
+### `いる??` に反応します
 
-で現在の時間を教えてくれます
+![](img/here.png)
 
-上記以外の入力をするとオウム返しをします
+### `time` の返答
+現在の時刻を教えてくれます
+
+![](img/time.png)
+
+### `mtg`, `MTG`の返答
+`@channel`でミーティングのリマインドをしてくれます
+
+![](img/MTG.png)
