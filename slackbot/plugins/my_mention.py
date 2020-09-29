@@ -19,9 +19,13 @@ def now_time(message):
     strftime = datetime.now().strftime("%Y/%m/%d %H時%M分%S秒です")
     message.reply(strftime)
 
-@respond_to('あ')
-def test(message):
-    message.reply("test")
+@respond_to('MTG', re.IGNORECASE)
+def mtg(message):
+    message.send("<!channel> リマインド\n本日18:30からMTGです〜\n`本日のアジェンダ`はスレッドで\n報告等あるひとはお願いしま〜す:カニちゃん:")
+
+@listen_to('いる??')
+def here(message):
+    message.reply("ここだよ!!メェェ〜")
 
 @default_reply()
 def default(message):
