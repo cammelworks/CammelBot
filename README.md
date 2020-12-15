@@ -9,7 +9,7 @@ Cammel専用のSlackBotです
 
 ![](img/default.png)
 
-### `いる??` に反応します
+### `いる？` に反応します
 
 ![](img/here.png)
 
