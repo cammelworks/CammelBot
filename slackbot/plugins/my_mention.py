@@ -23,7 +23,7 @@ def now_time(message):
 def mtg(message):
     message.send("<!channel> リマインド\n本日18:30からMTGです〜\n`本日のアジェンダ`はスレッドで\n報告等あるひとはお願いしま〜す:カニちゃん:")
 
-@listen_to('いる??')
+@listen_to('いる？')
 def here(message):
     message.reply("ここだよ!!メェェ〜")
 
